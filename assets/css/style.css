@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 500px;
+    display: inline-block;
+    margin:48px;
+}
+
+Body{
+    font-family:"raleway",sans-serif;
+}
+
+.headerh1{
+    background-color:#000000;
+    font-size:x-large;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.imagen-principal{
+    background-image: url(/assets/img/bg-header.jpg);
+    background-size: cover;
+    top: 73px;
+    left: 0px;
+    width: 1800px;
+    height: 900px;
+}
+
+
+.parrafo{
+
+    background-color:#000000;
+    color: aliceblue;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content p{
+    max-width: 500px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.content p{
+    max-width: 500px;
+    text-align: left;
+
+}
+
+.content img {
+    max-width: 500px;
+}
+
+.seccion-caracteristicas {
+
+    background-color:#1E1A13;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-size: 1280px;
+    justify-content: center;
+   
+}
+
+.caracteristicas{
+    text-align:center;
+    
+}
+
+.seccion-caracteristicas h2 {
+    text-align:center;
+    align-items: center;
+    color:#FFFFFF;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 100px;
+    margin-right: 75px;
+
+
+}
+
+.iconos {
+    color: #FFFFFF;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 250px;
+    margin-right: 250px;
+    gap: 110px ;
+
+}
+
+.iconos {
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.seccion-caracteristicas p {
+
+    font-size:x-large;
+    font-weight: lighter;
+    margin: 50px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+.fotos-iguanas {
+    display: flex;
+    justify-content: center;
+    background-color:#000000;
+}
+
+.fotos-iguanas img{
+    max-width: 316px;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.footer {
+    background-color:#1E1A13;
+    text-align: center;
+    padding: 1%;   
+    font-size:larger; 
+    color: #FFFFFF;
+}
+
+.footer a {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
